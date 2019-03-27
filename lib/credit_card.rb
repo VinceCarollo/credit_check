@@ -56,6 +56,6 @@ class CreditCard
   end
 
   def check_sum
-    p @luhn_output.sum
+    @luhn_output.sum
   end
 end
